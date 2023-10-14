@@ -2,7 +2,7 @@
 This is a simple single-page React application that enables users to search for locations, visualize their boundaries on a map, and retrieve population data using the Nominatim API. The application is designed to be responsive and should function properly on all modern web browsers.
 
 # How Application Work
-1) __Search for Locations:__On the home page, you'll find an input field where you can enter a location you want to search for. By default, the map marker is set to Boston, MA. Once you've entered the location, click the "Search" button or press Enter to initiate the search.
+1) __Search for Locations:__ On the home page, you'll find an input field where you can enter a location you want to search for. By default, the map marker is set to Boston, MA. Once you've entered the location, click the "Search" button or press Enter to initiate the search.
 2) __View Search Results:__ The application will retrieve data from the Nominatim API and display a list of search results, which include location names.
 3) __Select Desired search Result:__ By selecting a search result, you can view the location on the map with its visual boundaries displayed on the map. Additionally, you can see information about the location's population and the year in which the population data was recorded.
 4) __Share and Copy:__ In the search results, there's a "Share" button. Clicking this "Share" button will copy this link to your clipboard. If a friend shares a link to the application with you, clicking it will bring you to the application with the same search query, results, and the selected result that your friend originally shared.
