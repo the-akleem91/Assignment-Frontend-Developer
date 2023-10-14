@@ -1,12 +1,14 @@
 # Assignment-Frontend-Developer
-This is a simple sinle page React application that allows users to search for locations and visulize it on map and get population data using the Nominatim API. The application is responsive and should work on all modern browsers.
+This is a simple sinle page React application that allows users to search for locations and visulize their boundary on map and get population data using the Nominatim API. The application is responsive and should work on all modern browsers.
 
 # How Application Work
 1) Search for Locations: On the home page, you'll find a search bar and a map marker at Boston, MA default. Enter the location you want to search for and click the "Search" button or press Enter.
 2) View Search Results: The application will fetch data from the Nominatim API and display a list of search results, including location names.
-3) Sekect Desired search Result : On selecting a search result we can view the location on the map with the boundaries of the polygon visible & iew the location’s population and the year the population data.
+3) Select Desired search Result : On selecting a search result we can view the location on the map with the visuale boundaries of the polygon visible & iew the location’s population and the year the population data.
 4) Share and Copy : In search result their is copy button on clicking this "Share" button will copy the current search as a shareable link to your clipboard , If a friend shares a link to the application with you then on clicking it will display the same search query, results, and the selected result as originally shared by your friend.
-5) Recent Searches : on home page you will find a recent saerch section 
+5) Recent Searches : On home page you will find a recent saerch section where you can view your recent searches and clicking on one should return you to that search with exact same result as previous.
+
+Video Link : 
 
 # Setup Instructions
 To set up the project locally, please follow the steps below:
