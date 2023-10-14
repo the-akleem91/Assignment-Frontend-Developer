@@ -1,0 +1,52 @@
+.home-container {
+  width: 98vw;
+  /* height: 100vh; */
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.search-section {
+  width: 25%;
+}
+
+.map-section {
+  width: 75%;
+}
+
+@media screen and (max-width: 900px) {
+  .home-container {
+    gap: 0;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .search-section {
+    width: 100%;
+  }
+
+  .map-section {
+    width: 100%;
+  }
+}
+
+.nav-bar {
+  background-color: #0d47a1;
+  display: flex;
+  padding: 1rem;
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: #e3f2fd;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.back-btn {
+  font-weight: 400;
+  text-decoration: none;
+  color: #e3f2fd;
+  border-radius: 0.5rem;
+  padding: 0.3rem 0.7rem;
+  background-color: #1565c0;
+}
