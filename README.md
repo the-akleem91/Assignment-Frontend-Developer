@@ -1,13 +1,16 @@
 # Assignment-Frontend-Developer
-This is a simple sinle page React application that allows users to search for locations and visulize their boundary on map and get population data using the Nominatim API. The application is responsive and should work on all modern browsers.
+This is a simple single-page React application that enables users to search for locations, visualize their boundaries on a map, and retrieve population data using the Nominatim API. The application is designed to be responsive and should function properly on all modern web browsers.
 
 # How Application Work
-1) __Search for Locations:__ On the home page, you'll find a search bar and a map marker at Boston, MA default. Enter the location you want to search for and click the "Search" button or press Enter.
-2) __View Search Results:__ The application will fetch data from the Nominatim API and display a list of search results, including location names.
-3) __Select Desired search Result:__ On selecting a search result we can view the location on the map with the visuale boundaries of the polygon visible & iew the location’s population and the year the population data.
-4) __Share and Copy:__ In search result their is copy button on clicking this "Share" button will copy the current search as a shareable link to your clipboard , If a friend shares a link to the application with you then on clicking it will display the same search query, results, and the selected result as originally shared by your friend.
-5) __Recent Searches:__ On home page you will find a recent saerch section where you can view your recent searches and clicking on one should return you to that search with exact same result as previous.
+1) __Search for Locations:__On the home page, you'll find an input field where you can enter a location you want to search for. By default, the map marker is set to Boston, MA. Once you've entered the location, click the "Search" button or press Enter to initiate the search.
+2) __View Search Results:__ The application will retrieve data from the Nominatim API and display a list of search results, which include location names.
+3) __Select Desired search Result:__ By selecting a search result, you can view the location on the map with its visual boundaries displayed on the map. Additionally, you can see information about the location's population and the year in which the population data was recorded.
+4) __Share and Copy:__ In the search results, there's a "Share" button. Clicking this "Share" button will copy this link to your clipboard. If a friend shares a link to the application with you, clicking it will bring you to the application with the same search query, results, and the selected result that your friend originally shared.
+5) __Recent Searches:__ On the home page, you'll find a section for recent searches. Here, you can view your recent searches. Clicking on one of these recent searches will return you to that search with the exact same results and selected result as in your previous search.
 
+
+# Application Demo Video Link :
+Link : https://drive.google.com/file/d/1waMIiicl1PuUzfP7kLo-Wg-R1TymkuBy/view?usp=sharing
 
 # Setup Instructions
 To set up the project locally, please follow the steps below:
